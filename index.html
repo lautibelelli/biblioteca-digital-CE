@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biblioteca Digital Centro de Estudiantes ISD</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📕 Biblioteca Digital Centro de Estudiantes ISD</h1>
+    <nav>
+      <a href="#primero">1°</a>
+      <a href="#segundo">2°</a>
+      <a href="#tercero">3°</a>
+      <a href="#cuarto">4°</a>
+      <a href="#quinto">5°</a>
+      <a href="#sexto">6°</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Secciones de cursos -->
+    
+    <section id="primero">
+      <h2>📘 Primero Año</h2>
+      <input type="file" onchange="handleFileUpload(event, 'primero')" />
+      <ul id="lista-primero"></ul>
+    </section>
+    
+    <section id="segundo">
+      <h2>📘 Segundo Año</h2>
+      <input type="file" onchange="handleFileUpload(event, 'segundo')" />
+      <ul id="lista-segundo"></ul>
+    </section>
+    
+    <section id="tercero">
+      <h2>📘 Tercero Año</h2>
+      <input type="file" onchange="handleFileUpload(event, 'tercero')" />
+      <ul id="lista-tercero"></ul>
+    </section>
+    
+    <section id="cuarto">
+      <h2>📘 Cuarto Año</h2>
+      <input type="file" onchange="handleFileUpload(event, 'cuarto')" />
+      <ul id="lista-cuarto"></ul>
+    </section>
+    
+    <section id="quinto">
+      <h2>📘 Quinto Año</h2>
+      <input type="file" onchange="handleFileUpload(event, 'quinto')" />
+      <ul id="lista-quinto"></ul>
+    </section>
+    
+    <section id="sexto">
+      <h2>📘 Sexto Año</h2>
+      <input type="file" onchange="handleFileUpload(event, 'sexto')" />
+      <ul id="lista-sexto"></ul>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>Centro de Estudiantes ISD © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
